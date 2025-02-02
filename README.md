@@ -12,3 +12,6 @@ A modern, web-based bingo card generator that allows you to create customized bi
 - Preview cards before printing
 - Navigate between generated cards
 - Automatic word shuffling
+
+## Built with
+https://bolt.new
