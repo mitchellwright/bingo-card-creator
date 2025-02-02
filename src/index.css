@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  @page {
+    margin: 0.5in;
+    size: portrait;
+  }
+  
+  .print-break {
+    break-after: page;
+  }
+  
+  /* Enhanced image printing styles */
+  img {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    forced-color-adjust: exact !important;
+  }
+
+  /* Ensure absolute positioned elements print */
+  .absolute {
+    position: absolute !important;
+    display: block !important;
+  }
+}
